@@ -1,0 +1,30 @@
+/* ==========================================================================
+ * Author's custom styles
+ * ========================================================================== */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  background-color: #e5c14c;
+  color: #5c1020;
+  font-family: Pacifico, Helvetica, sans-serif; }
+
+.input-group-btn {
+  display: inline-block; }
+
+.center {
+  text-align: center; }
+
+.copyright {
+  float: right; }
+
+social {
+  float: left; }
+
+i {
+  color: #5c1020 !important; }
+
+button {
+  background-color: #5c1020;
+  color: white; }
+
+/*# sourceMappingURL=main.css.map */
