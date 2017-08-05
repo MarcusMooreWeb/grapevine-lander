@@ -43,7 +43,7 @@
         <div class="col-md-12">
           
           <div class="email-form">
-            <form action="" class="form-inline justify-content-center">
+            <form action="index.php" class="form-inline justify-content-center">
             <div class="form-group">
               <input type="email" class="form-control form-control-sm" id="smFormGroupInput" placeholder="you@email.com" > 
               <button type="submit" class="btn" >Ping me!</button>
