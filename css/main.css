@@ -27,4 +27,7 @@ button {
   background-color: #5c1020;
   color: white; }
 
+.errors p, .success p {
+  padding: 15px; }
+
 /*# sourceMappingURL=main.css.map */
