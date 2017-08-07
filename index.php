@@ -1,5 +1,12 @@
 <?php
-  include 'functions.php';
+
+include 'functions.php';
+$whilelist = array( 'name', 'email', 'message');
+$email_address = 'marcusmooreweb@gmail.com, camilyon2@gmail.com';
+$subject = 'Contact Form Test';
+$errors = array();
+$fields = array();
+  
 
 ?>
 <!doctype html>
