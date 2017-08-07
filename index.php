@@ -83,8 +83,9 @@ if ( ! empty( $_POST )) {
           <div class="email-form">
             <form role="form" method="post" action="index.php" class="form-inline justify-content-center">
             <div class="form-group">
-              <input type="email" id="email" class="form-control form-control-sm" id="smFormGroupInput" placeholder="e.g. you@email.com" > 
-              <button type="submit" class="btn" >Ping me!</button>
+              <input type="email" id="email" class="form-control" id="smFormGroupInput" placeholder="e.g. you@email.com" > 
+              <input type="text" class="form-control" name="human" id="human" placeholder="5 + 2 = ?"/>
+              <input type="text" name="submit" id="submit" class="btn" value="Send" />
             </div>       
           </form>
           </div>
