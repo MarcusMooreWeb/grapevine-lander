@@ -1,6 +1,6 @@
 <?php
 
-$whilelist = array( 'name', 'email', 'message');
+$whilelist = array( 'email' );
 $email_address = 'marcusmooreweb@gmail.com, camilyon2@gmail.com';
 $subject = 'Contact Form Test';
 $errors = array();
