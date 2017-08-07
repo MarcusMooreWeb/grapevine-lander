@@ -1,8 +1,6 @@
 <?php
-
 include 'functions.php';
 include 'validation-and-process.php'
-  
 
 ?>
 
@@ -28,6 +26,7 @@ include 'validation-and-process.php'
         <link rel="stylesheet" type="text/css" href="css/main.css" />
         
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
     </head>
     <body>
         <!--[if lt IE 8]>
@@ -55,6 +54,7 @@ include 'validation-and-process.php'
             <div class="form-group">
               <input type="email" id="email" class="form-control" id="smFormGroupInput" placeholder="e.g. you@email.com" value="<?php echo isset( $fields['email'] )? _e($fields['email'] ) : '' ?>"> 
               <input type="text" class="form-control" name="human" id="human" placeholder="5 + 2 = ?"/>
+              <div class="g-recaptcha" data-sitekey="6LfHGCwUAAAAAHTSRawN3KV51jrL86G5vklYu81y"></div>
               <input type="submit" name="submit" id="submit" class="btn" value="Send" />
             </div>       
           </form>
