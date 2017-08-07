@@ -79,7 +79,7 @@ if ( ! empty( $_POST )) {
       <br/>
         <div class="row">
         <div class="col-md-12">
-          
+          <?php include 'error-or-sent.php'; ?>
           <div class="email-form">
             <form role="form" method="post" action="index.php" class="form-inline justify-content-center">
             <div class="form-group">
