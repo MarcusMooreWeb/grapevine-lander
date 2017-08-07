@@ -85,7 +85,7 @@ if ( ! empty( $_POST )) {
             <div class="form-group">
               <input type="email" id="email" class="form-control" id="smFormGroupInput" placeholder="e.g. you@email.com" value="<?php echo isset( $fields['email'] )? _e($fields['email'] ) : '' ?>"> 
               <input type="text" class="form-control" name="human" id="human" placeholder="5 + 2 = ?"/>
-              <input type="text" name="submit" id="submit" class="btn" value="Send" />
+              <input type="submit" name="submit" id="submit" class="btn" value="Send" />
             </div>       
           </form>
           </div>
