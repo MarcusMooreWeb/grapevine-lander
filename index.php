@@ -53,7 +53,7 @@ include 'validation-and-process.php'
             <form role="form" method="post" action="index.php" class="form-inline justify-content-center">
             <div class="form-group">
               <input type="email" id="email" class="form-control" id="smFormGroupInput" placeholder="e.g. you@email.com" value="<?php echo isset( $fields['email'] )? _e($fields['email'] ) : '' ?>"> 
-              <input type="text" class="form-control" name="human" id="human" placeholder="5 + 2 = ?"/>
+              <!--<input type="text" class="form-control" name="human" id="human" placeholder="5 + 2 = ?"/>-->
               <div class="g-recaptcha" data-sitekey="6LfHGCwUAAAAAHTSRawN3KV51jrL86G5vklYu81y"></div>
               <input type="submit" name="submit" id="submit" class="btn" value="Send" />
             </div>       
