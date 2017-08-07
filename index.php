@@ -35,6 +35,7 @@ if ( ! empty( $_POST )) {
   
 
 ?>
+
 <!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
@@ -80,9 +81,9 @@ if ( ! empty( $_POST )) {
         <div class="col-md-12">
           
           <div class="email-form">
-            <form action="index.php" class="form-inline justify-content-center">
+            <form role="form" method="post" action="index.php" class="form-inline justify-content-center">
             <div class="form-group">
-              <input type="email" class="form-control form-control-sm" id="smFormGroupInput" placeholder="you@email.com" > 
+              <input type="email" id="email" class="form-control form-control-sm" id="smFormGroupInput" placeholder="e.g. you@email.com" > 
               <button type="submit" class="btn" >Ping me!</button>
             </div>       
           </form>
